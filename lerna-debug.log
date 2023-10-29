@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   parallel: true,
+0 silly argv   lernaVersion: '3.20.2',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'shop-dev'
+0 silly argv }
+1 notice cli v3.20.2
+2 verbose rootPath E:\FYP_SOFTWARE_ENGINEERING\FYP\des
+3 info versioning independent
+4 error Error: Invalid package name "DES/shop": name can only contain URL-friendly characters
+4 error     at invalidPackageName (E:\FYP_SOFTWARE_ENGINEERING\FYP\des\node_modules\npm-package-arg\npa.js:86:15)
+4 error     at Result.setName (E:\FYP_SOFTWARE_ENGINEERING\FYP\des\node_modules\npm-package-arg\npa.js:121:11)
+4 error     at new Result (E:\FYP_SOFTWARE_ENGINEERING\FYP\des\node_modules\npm-package-arg\npa.js:111:23)
+4 error     at Function.resolve (E:\FYP_SOFTWARE_ENGINEERING\FYP\des\node_modules\npm-package-arg\npa.js:58:15)
+4 error     at new Package (E:\FYP_SOFTWARE_ENGINEERING\FYP\des\node_modules\@lerna\package\index.js:36:26)
